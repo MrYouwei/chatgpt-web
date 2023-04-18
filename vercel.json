@@ -14,6 +14,7 @@
 	],
 	"routes": [{ "src": "/(.*)", "dest": "/vercel.py" }],
 	"env": {
+		"FLASK_APP": "chatgpt",
 		"VERCEL": "1"
 	}
 }
